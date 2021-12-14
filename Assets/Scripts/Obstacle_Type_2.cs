@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Obstacle_Type_2 : MonoBehaviour
 {
-  
-    // Update is called once per frame
+
+    // Spins obstacle counterclockwise
     void Update()
     {
-        transform.Rotate(0 * Time.deltaTime, -110 * Time.deltaTime, 0 * Time.deltaTime);
+        transform.Rotate(0, -110 * Time.deltaTime, 0);
     }
 }
+

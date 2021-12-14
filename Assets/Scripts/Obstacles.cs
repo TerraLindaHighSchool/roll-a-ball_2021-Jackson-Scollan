@@ -5,7 +5,7 @@ using UnityEngine;
 public class Obstacles : MonoBehaviour
 {
 
-    // Update is called once per frame
+    // Spins obstacle clockwise
     void Update()
     {
         transform.Rotate(0 * Time.deltaTime, 110 * Time.deltaTime, 0 * Time.deltaTime);
