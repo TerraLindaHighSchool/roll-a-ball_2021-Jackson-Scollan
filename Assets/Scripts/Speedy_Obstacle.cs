@@ -7,6 +7,6 @@ public class Speedy_Obstacle : MonoBehaviour
     // Spins fast obstacle clockwise
     void Update()
     {
-        transform.Rotate(0, 245 * Time.deltaTime, 0);
+        transform.Rotate(0, 190 * Time.deltaTime, 0);
     }
 }
