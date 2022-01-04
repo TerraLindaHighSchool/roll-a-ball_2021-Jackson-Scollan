@@ -9,9 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7578996975137578063}
-  - component: {fileID: 4328199247886115713}
-  - component: {fileID: 4655035451986604523}
-  - component: {fileID: 7826351869611952520}
+  - component: {fileID: 5686442015579260688}
   m_Layer: 0
   m_Name: Obstacle Type 3
   m_TagString: Untagged
@@ -34,20 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4328199247886115713
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7441423745310879763}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4655035451986604523
+--- !u!114 &5686442015579260688
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,25 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7441423745310879763}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1cce3ea5bd004842818cf07fd0b888a, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c6be9c8aac570a42be19bba105be9fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &7826351869611952520
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7441423745310879763}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &8825697581945358497
 GameObject:
   m_ObjectHideFlags: 0

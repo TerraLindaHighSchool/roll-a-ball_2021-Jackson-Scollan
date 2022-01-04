@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Obstacle_Type_2 : MonoBehaviour
+public class Obstacle2 : MonoBehaviour
 {
 
     // Spins obstacle counterclockwise

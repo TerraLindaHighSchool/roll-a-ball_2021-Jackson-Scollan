@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Speedy_Obstacle : MonoBehaviour
+public class Obstacle3 : MonoBehaviour
 {
     // Spins fast obstacle clockwise
     void Update()
     {
-        transform.Rotate(0, 190 * Time.deltaTime, 0);
+        transform.Rotate(0, 90 * Time.deltaTime, 0);
     }
 }

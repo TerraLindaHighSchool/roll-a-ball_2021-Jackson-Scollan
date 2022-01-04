@@ -58,7 +58,16 @@ public class PlayerController : MonoBehaviour
 
             SetCountText();
         }
-        
+
+        if (other.gameObject.CompareTag("Finish"))
+        {
+            winTextObject.SetActive(true);
+        }
+
+        if (other.gameObject.CompareTag("Respawn"))
+        {
+           
+        }
     }
 
 }
