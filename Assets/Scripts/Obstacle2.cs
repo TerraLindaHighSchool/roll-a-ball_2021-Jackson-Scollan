@@ -5,10 +5,10 @@ using UnityEngine;
 public class Obstacle2 : MonoBehaviour
 {
 
-    // Spins obstacle counterclockwise
+    // Spins obstacle 2 counterclockwise
     void Update()
     {
-        transform.Rotate(0, -110 * Time.deltaTime, 0);
+        transform.Rotate(0, -145 * Time.deltaTime, 0);
     }
 }
 

@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float speed = 0;
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
+    public GameObject descriptionTextObject;
+
 
     private Rigidbody rb;
     private int count;
@@ -23,6 +25,7 @@ public class PlayerController : MonoBehaviour
 
         SetCountText();
         winTextObject.SetActive(false);
+        descriptionTextObject.SetActive(true);
     }
 
     void OnMove(InputValue movementValue)
@@ -32,6 +35,8 @@ public class PlayerController : MonoBehaviour
         movementX = movementVector.x;
         movementY = movementVector.y;
 
+        descriptionTextObject.SetActive(false);
+            
     }
 
     void SetCountText()
@@ -51,6 +56,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.tag);
         if (other.gameObject.CompareTag("PickUp"))
         {
             other.gameObject.SetActive(false);
@@ -64,10 +70,6 @@ public class PlayerController : MonoBehaviour
             winTextObject.SetActive(true);
         }
 
-        if (other.gameObject.CompareTag("Respawn"))
-        {
-           
-        }
     }
 
 }

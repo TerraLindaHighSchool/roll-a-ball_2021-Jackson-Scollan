@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PickUp
   - Spinner
+  - Description
   layers:
   - Default
   - TransparentFX
